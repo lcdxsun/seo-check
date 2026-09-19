@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — SEO Health Check</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font: 15px/1.75 -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif; color: #1f2937; background: #f8fafc; }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 20px 80px; }
+    h1 { font-size: 26px; margin-bottom: 6px; }
+    .date { color: #64748b; font-size: 13px; margin-bottom: 24px; }
+    h2 { font-size: 17px; margin: 26px 0 8px; color: #0f766e; }
+    p, li { margin-bottom: 8px; }
+    ul { margin-left: 20px; }
+    .zh { border-top: 1px dashed #cbd5e1; margin-top: 36px; padding-top: 28px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <div class="date">Last updated: September 2026 · SEO Health Check (browser extension)</div>
+
+  <h2>Short version</h2>
+  <p>SEO Health Check does not collect, store, transmit, or sell any personal data. All page analysis runs locally inside your browser.</p>
+
+  <h2>What stays on your device</h2>
+  <ul>
+    <li>All SEO analysis results (scores, checks, keywords, performance metrics) are computed in the extension and never leave your browser.</li>
+    <li>Language preference, PRO license status and analysis history are stored only in your browser's local extension storage (chrome.storage / IndexedDB). They are not sent to us.</li>
+  </ul>
+
+  <h2>The only network requests the extension can make</h2>
+  <ul>
+    <li><b>robots.txt / sitemap.xml of the site you are analyzing</b> — fetched to determine crawl permissions, only when you run an audit on that page.</li>
+    <li><b>Lemon Squeezy license API</b> (api.lemonsqueezy.com) — called only when you voluntarily paste a PRO license key to activate or deactivate it. The key is verified by Lemon Squeezy; we operate no backend server.</li>
+    <li><b>AI providers you configure yourself</b> (optional) — if you enable AI advice with the cloud engine, audit data of the current page is sent <b>directly from your browser to the provider you chose</b> (e.g. GLM, OpenAI, DeepSeek) using <b>your own API key</b>. This data does not pass through us and we never see it. The on-device AI engine works fully offline.</li>
+  </ul>
+
+  <h2>No tracking, no accounts, no analytics</h2>
+  <p>The extension contains no analytics SDKs, no ads, no account system, and does not record browsing history.</p>
+
+  <h2>Contact</h2>
+  <p>your-email@example.com（替换为你的邮箱）</p>
+
+  <div class="zh">
+    <h2>隐私政策（中文）</h2>
+    <p><b>简版：本扩展不收集、不存储、不上传、不出售任何用户数据，所有分析均在浏览器本地完成。</b></p>
+    <ul>
+      <li>分析结果、语言偏好、VIP 状态与历史记录仅保存在你浏览器的扩展本地存储中，不会发送给我们。</li>
+      <li>扩展仅有的网络请求：① 被分析页面所在网站的 robots.txt / sitemap.xml；② 你主动激活 VIP 时访问 Lemon Squeezy 授权验证接口（我们无服务器）；③ 你自行开启云端 AI 并填写自己的 API Key 时，当前页面的体检数据<b>由浏览器直连你选择的服务商</b>（不经我们，我们也看不到）。本地 AI 引擎完全离线。</li>
+      <li>无统计 SDK、无广告、无账号体系、不记录浏览历史。</li>
+    </ul>
+  </div>
+</main>
+</body>
+</html>
